@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsla(115, 79%, 41%, 0.884);
+}
+
+.navbar{
+           background-color: rgb(198, 230, 176);
+           border-radius: 30px;
+           margin:10px;
+    }
+
+.navbar li{
+        float:left;
+        list-style: none; 
+        margin: 13px 20px;
+    }
+.navbar ul{
+            overflow: auto;
+        }
+
+.navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            font-size: 20px;
+            color: rgb(36, 54, 25);
+        }
+.search{
+            float: right;
+            color: rgb(0, 0, 0);
+            padding: 14px 75px;
+        }
+.btn{
+    font-size: 15px;
+    
+}
+
+
+.navbar input{
+       border: 2px solid black;
+       border-radius: 14px;
+       padding: 3px 17px;
+       width: 129px;
+    }
+
+.navbar li a:hover{
+        background-color: rgb(137, 190, 137);
+        border-radius: 5px;
+}
+/* .images{
+    width:100%;
+    height:40%;
+}
+.images img{
+    width: 200px;
+    height:300px;
+} */
+.class1{
+    margin-top: 25px;
+    margin-left:20px;
+    margin-right:20px;
+    background-color: rgb(198, 230, 176);
+    
+}
+.class1 img{
+    width: 365px;
+    height:200px;
+   padding: 10px;
+   position: center;
+
+}
+
+h5{
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    color: rgb(226, 91, 13);
+}
+
+h3{
+    font-size:20px;
+    color: rgb(226, 91, 13);
+}
+
+h1{
+    color:rgb(201, 9, 9);
+    margin-top:15px;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.container{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background-color: rgb(198, 230, 176);
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.bg-1,.bg-2{
+     background-color: rgb(198, 230, 176);
+    height: 300px;
+}
+
+
+.bg-3{
+    background-color: rgb(198, 230, 176);
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+.bg-4{
+    margin:20px;
+    width: auto;
+    background-color: rgb(198, 230, 176);
+}
+
+.bg-5{
+     background-color: rgb(198, 230, 176);
+     font-size: 15px;
+     padding-top: 10px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+     
+}
+
+.class1 h5{
+    padding-top:10px;
+}
+
+.margin1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.school{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    margin-top: 20px;
+
+}
